@@ -13,7 +13,7 @@ app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({extended:true}));
 app.use(Cors());
 
-Mongoose.connect("mongodb+srv://sujeeshkumar:sujeesh@cluster2.ankzmma.mongodb.net/EmployeeDB?retryWrites=true&w=majority",{ useNewUrlParser: true});
+Mongoose.connect("mongodb+srv://ragulr:ragulr@cluster0.qch7vjx.mongodb.net/EmployeeDB?retryWrites=true&w=majority",{ useNewUrlParser: true});
 
 // SIGNUP
 app.post('/signup',async(req,res)=>{   
